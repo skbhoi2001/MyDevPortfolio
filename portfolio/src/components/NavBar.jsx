@@ -12,12 +12,13 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 
+
 export default function NavBar() {
   const onDownload = () => {
     console.log("clicked");
     const link = document.createElement("a");
-    link.download = `pw1_046_Aiswarya_R.pdf`;
-    link.href = "./pw1_046_Aiswarya_R.pdf";
+    link.target="_blank"
+    link.href = "https://drive.google.com/file/d/1Me0ppnBHdL1_awIlEwKoDD6NGMSu8xEx/view?usp=sharing";
     link.click();
   };
 
@@ -49,12 +50,12 @@ export default function NavBar() {
           width: "100%",
           backdropFilter: `${offset > 300 ? "blur(5px)" : "blur(0px)"}`,
           background: `${
-            offset > 300 ? "#BEF3F4" : "#D9FEFF"
+            offset > 300 ? "#8FCACC" : "#D9FEFF"
           }`,
         }}
       >
         <div className={styles.name}>
-          Soumyak
+          Soumyak Kumar Bhoi
         </div>
         <div className={styles.tab}>
           <a
@@ -112,7 +113,7 @@ export default function NavBar() {
             <div className={styles.wrap}>
               <div className={styles.content}>
                 <p>Hi, I am Soumyak</p>
-                <p> A Front-end Developer, an Artist 
+                <p> A Full Stack Developer, an Artist 
                 and a color fanatic.</p>
                 <div className={styles.iconWrap}>
                   
@@ -180,9 +181,9 @@ export default function NavBar() {
                 }}
               >
                 <img
-                  src="./profile1.png"
+                  src="https://github.com/skbhoi2001/MyDevPortfolio/blob/main/portfolio/src/docs/photo_soumyak.png?raw=true"
                   alt="profile"
-                  width="80%"
+                  width="100%"
                   className={styles.profilePic}
                 />
               </div>

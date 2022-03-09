@@ -63,6 +63,7 @@
   margin-left: 42px;
   margin-top: 5px;
   margin-bottom: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .name img {
@@ -96,12 +97,13 @@
   text-align: justify;
   line-height: 1.5;
   text-align: center;
-  color: #9b9b9b;
+  color: #0c0c0c;
   letter-spacing: 2px;
 }
 
 .content {
-  color: #fff;
+  color: black;
+  font-weight: 900;
   display: flex;
   width: 70%;
   flex-direction: column;
@@ -128,7 +130,8 @@
 }
 
 .profilePic {
-  border-radius: 7px;
+  border-radius: 45%;
+  background-color: rgb(153, 153, 153);
 }
 
 .parent {
@@ -136,18 +139,18 @@
 }
 
 .white {
-  background-color: white;
+  background-color: rgb(163, 154, 154);
   width: 30%;
   height: 100vh;
 }
 
 .black {
-  /* background-color: black; */
-  background-image: url("https://images.unsplash.com/photo-1603366615917-1fa6dad5c4fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80");
+  background-color: #DDF7F8;
+  /* background-image: url("https://images.unsplash.com/photo-1603366615917-1fa6dad5c4fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"); */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
   width: 70%;
-  color: white;
+  color: black;
   height: 100vh;
   margin: 0;
 }
