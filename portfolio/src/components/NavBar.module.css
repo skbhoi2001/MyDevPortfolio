@@ -65,11 +65,12 @@
   margin-bottom: 5px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .name img {
   animation: fadeIn 5s ease-in-out linear;
 }
-
+.logo{
+  text-decoration: none;
+}
 @keyframes fadeIn {
   0% {
     opacity: 0;

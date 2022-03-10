@@ -11,22 +11,19 @@ const About = () => {
             borderRadius: "1rem 0 0 1rem",
           }}
         >
-          <p>A little about me !</p>
+          <p>ABOUT ME</p>
         </div>
         <div className={styles.para}>
           <p>
-            Hola! I am Aiswarya, a color fanatic, and an art lover. I enjoy
-            doing paintings and crafts and being creative in everything I do.
-            After completing electrical engineering, I stepped into the world of
-            Information Technology. My passion for web development started with
-            the thought of combining art and programming.
+            Hola! I am Soumyak Kumar Bhoi, self-developed, motivated with a lump sum
+ of skillset.
           </p>
           <p>
-            I love visualizing and curating wonderful experiences with code,
-            colors, and designs. Today I have completed a couple of projects and
-            have got good hands-on with various front-end technologies. Besides,
-            my professional experience helped me to become more adaptable and a
-            good team player.
+          A self-motivated, hard working Full Stack Web Developer with problem solving mindset and have solved 200+ Data Structures & Algorithm problems. Capable of writing production ready code using REACT, REDUX, JavaScript, HTML and CSS. Eager to tackle Web Development challenges to achieve a lasting impact on user experience
+
+I fell in love with the code while writing my first C program. I was first introduced to the coding in my engineering where I learnt C and C++. But at that point I was more passionate towards Web Development using PHP and MySQL.
+
+But my drive to learn new things made me stumble upon PHP tutorial videos during the 2020 lockdown, and since then there has been no going back. I have learnt HTML, CSS, JavaScript, React.js and applied this tech stack to build many projects. I am still enthusiastically grabbing on to any programming languages, frameworks, principles etc, and add it to my coding skillset.
           </p>
         </div>
       </div>

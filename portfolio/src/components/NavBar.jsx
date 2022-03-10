@@ -38,7 +38,7 @@ export default function NavBar() {
   }, []);
 
   return (
-    <div>
+    <div id="navbar">
       <div
         style={{
           display: "flex",
@@ -55,20 +55,22 @@ export default function NavBar() {
         }}
       >
         <div className={styles.name}>
-          Soumyak Kumar Bhoi
+          <a className={styles.logo} href="#navbar">
+            <p  >Soumyak Kumar Bhoi</p>  
+          </a>
         </div>
         <div className={styles.tab}>
+          <a
+            href="#navbar"
+            style={{ color: `black` }}
+          >
+            <p>HOME</p>
+          </a>
           <a
             href="#about"
             style={{ color: `black` }}
           >
             <p>ABOUT</p>
-          </a>
-          <a
-            href="#experience"
-            style={{ color: `black` }}
-          >
-            <p>EXPERIENCE</p>
           </a>
           <a
             href="#skills"

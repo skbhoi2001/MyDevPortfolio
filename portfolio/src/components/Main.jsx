@@ -19,7 +19,6 @@ export default function Main() {
       <NavBar />
 
       <About />
-      <Experience />
       <TechStack />
       <Project />
 
