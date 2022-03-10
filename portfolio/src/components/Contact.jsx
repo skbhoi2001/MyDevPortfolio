@@ -44,7 +44,7 @@ export default function Contact() {
             required
           ></textarea>
           <button type="submit" value="SEND">
-            SEND <LocalPostOfficeOutlinedIcon></LocalPostOfficeOutlinedIcon>
+            SEND EMAIL <LocalPostOfficeOutlinedIcon></LocalPostOfficeOutlinedIcon>
           </button>
         </form>
       </div>
