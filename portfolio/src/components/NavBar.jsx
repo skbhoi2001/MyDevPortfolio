@@ -114,7 +114,8 @@ export default function NavBar() {
           >
             <div className={styles.wrap}>
               <div className={styles.content}>
-                <p>Hi, I am Soumyak</p>
+                <p>Hi, I am</p>
+                <p>Soumyak Kumar Bhoi</p>
                 <p> A Full Stack Developer, an Artist 
                 and a color fanatic.</p>
                 <div className={styles.iconWrap}>

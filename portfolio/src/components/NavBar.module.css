@@ -90,8 +90,12 @@
   font-family: "Antic Slab", serif;
   font-size: 3rem;
 }
-
 .content p:nth-child(2) {
+  font-family: "Antic Slab", serif;
+  font-size: 2.4rem;
+}
+
+.content p:nth-child(3) {
   /* font-family: 'Lato', sans-serif; */
   font-family: "Antic Slab", serif;
   font-size: 1.25rem;
@@ -188,7 +192,11 @@
     font-size: 1.9rem;
     text-align: center;
   }
-  .content p:nth-child(2)
+  .content p:nth-child(2) {
+    font-size: 1.9rem;
+    text-align: center;
+  }
+  .content p:nth-child(3)
  {
     font-size: 1rem;
     text-align: center;
