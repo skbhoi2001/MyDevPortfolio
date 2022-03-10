@@ -17,9 +17,9 @@ export default function Contact() {
             <LocationOnIcon style={{ color: "white" }}></LocationOnIcon>
             <p>Odisha, India</p>
           </div>   
-          <div>
+          <div >
             <LocalPhoneIcon style={{ color: "white" }}></LocalPhoneIcon>
-            <p>+91 9937062128</p>
+            <p action="tel:9937062128"  >+91 9937062128</p>
           </div>   
 
           <div>

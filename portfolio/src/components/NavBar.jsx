@@ -56,7 +56,7 @@ export default function NavBar() {
       >
         <div className={styles.name}>
           <a className={styles.logo} href="#navbar">
-            <p  >Soumyak Kumar Bhoi</p>  
+            <p>Soumyak Kumar Bhoi</p>  
           </a>
         </div>
         <div className={styles.tab}>
@@ -114,7 +114,7 @@ export default function NavBar() {
           >
             <div className={styles.wrap}>
               <div className={styles.content}>
-                <p>Hi, I am</p>
+                <p>Hi, I am </p>
                 <p>Soumyak Kumar Bhoi</p>
                 <p> A Full Stack Developer, an Artist 
                 and a color fanatic.</p>
@@ -184,9 +184,9 @@ export default function NavBar() {
                 }}
               >
                 <img
-                  src="https://github.com/skbhoi2001/MyDevPortfolio/blob/main/portfolio/src/docs/photo_soumyak.png?raw=true"
+                  src="https://github.com/skbhoi2001/MyDevPortfolio/blob/main/portfolio/src/docs/hh.png?raw=true"
                   alt="profile"
-                  width="100%"
+                  width="50%"
                   className={styles.profilePic}
                 />
               </div>
