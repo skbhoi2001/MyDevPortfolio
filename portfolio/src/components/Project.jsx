@@ -3,53 +3,55 @@ import styles from "./Project.module.css";
 
 const data = [
   {
-    name: "RedBus Clone",
-    techStack: ["HTML5", "CSS3", "JavaScript", "BootStrap"],
-    desc: "RedBus is World's largest online bus ticketing platform offers bus travels, AC Volvo bus, carpooling & bus hire at best rates.It provides ticket booking facility through its website, iOS and Android mobile apps.",
+    name: "Instagram Clone",
+    techStack: ["React","Redux","Material UI","JSON Server"],
+    desc: "Instagram is an photo and video sharing social networking service founded by Kevin Systrom and Mike Krieger.It allows users to upload media that can be edited with filters and organized by hashtags and geographical tagging.",
     collab: true,
-    year: "Nov 2021",
+    year: "March 2022",
     team: 3,
-    days: 10,
-    img: "./redbus.png",
-    git:"https://github.com/Aiswaryaraja1996/RedBus-Project",
-    web:"https://aiswaryaraja1996.github.io/RedBus-Project/"
+    days: 6,
+    data:"Username:masaischool,Password:masaischool",
+    img: "https://raw.githubusercontent.com/skbhoi2001/Instagram_clone/main/instagram_clone/images/home.png",
+    git:"https://github.com/skbhoi2001/Instagram_clone/tree/main/instagram_clone",
+    web:"https://happy-curran-36e035.netlify.app"
   },
   {
-    name: "Sudoku Game",
-    techStack: ["HTML5", "CSS3", "JavaScript", "BootStrap"],
-    desc: "In classic sudoku, the objective is to fill a 9 × 9 grid with digits so that each column, each row, and each of the nine 3 × 3 subgrids that compose the grid contain all of the digits from 1 to 9.",
+    name: "Amazon.com Clone",
+    techStack: ["React", "Redux", "Material UI","JSON Server"],
+    desc: "Amazon.com, Inc. is an American multinational technology company which focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
+    collab: true,
+    year: "December 2021",
+    team: 3,
+    days: 7,
+    img: "",
+    git:"https://github.com/skbhoi2001/Amazon-clone",
+    web:"."
+  },
+  {
+    name: "Practo Clone",
+    techStack: ["HTML5", "CSS3", "JavaScript", "JSON Server"],
+    desc: "Practo is revolutionizing healthcare by enabling consumers to find the best doctors, book instant appointments, consultations, and make better, more informed health decisions.",
     collab: false,
-    year: "Nov 2021",
+    year: "November 2021",
     team: 3,
-    days: 1,
-    img: "./sudoku.png",  
+    days: 6,
+    img: "https://user-images.githubusercontent.com/72690740/147086166-535f3590-d10c-4a59-9feb-85f57286516c.PNG",  
     
-    git:"https://github.com/Aiswaryaraja1996/Sudoku-Game",
-    web:"https://aiswaryaraja1996.github.io/Sudoku-Game/"
+    git:"https://github.com/skbhoi2001/practo_clone",
+    web:"http://proctoclone.atwebpages.com/"
   },
+  
   {
-    name: "HotJar Clone",
-    techStack: ["HTML5", "CSS3", "JavaScript"],
-    desc: "Hotjar is a powerful tool that reveals the online behavior and voice of your users by combining both Analysis and Feedback tools.",
+    name: "NiftyPm Clone",
+    techStack: ["HTML5","CSS3","JavaScript"],
+    desc: "NiftyPm is a Comparison of project management software.",
     collab: true,
-    year: "Sep 2021",
+    year: "June 2021",
     team: 3,
-    days: 10,
-    img: "./hotjar.png",
-    git:"https://github.com/Aiswaryaraja1996/Hotjar",
-    web:"https://aiswaryaraja1996.github.io/Hotjar/"
-  },
-  {
-    name: "Flipkart Clone",
-    techStack: ["React","Redux","Routes","Material UI"],
-    desc: "Flipkart is a leading destination for online shopping in India.E-commerce marketplace offering over 30 million products cross 70+ categories.",
-    collab: true,
-    year: "Dec 2021",
-    team: 2,
     days: 5,
-    img: "./flipkart.png",
-    git:"https://github.com/Aiswaryaraja1996/Flipkart-Project",
-    web:"https://clone-flipkart.netlify.app/"
+    img: "",
+    git:"https://github.com/skbhoi2001/niftypm",
+    web:""
   },
 ];
 

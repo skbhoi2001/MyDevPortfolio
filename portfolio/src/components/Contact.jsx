@@ -4,48 +4,32 @@ import LocalPostOfficeOutlinedIcon from "@mui/icons-material/LocalPostOfficeOutl
 import QuestionAnswerOutlinedIcon from "@mui/icons-material/QuestionAnswerOutlined";
 import SentimentSatisfiedAltIcon from "@mui/icons-material/SentimentSatisfiedAlt";
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 
 export default function Contact() {
   return (
-    <div style={{ backgroundColor: "black", width: "100%",top:"100px"}} id="contact">
+    <div style={{ backgroundColor: "#686F6F", width: "100%",top:"100px"}} id="contact">
       <div className={styles.contact}>
         <div className={styles.contactDetails}>
           <p>CONTACT ME</p>   
 
-                   <div>
+          <div>
             <LocationOnIcon style={{ color: "white" }}></LocationOnIcon>
-            <p>Kerala, India</p>
+            <p>Odisha, India</p>
+          </div>   
+          <div>
+            <LocalPhoneIcon style={{ color: "white" }}></LocalPhoneIcon>
+            <p>+91 9937062128</p>
           </div>   
 
           <div>
             <EmailIcon style={{ color: "white" }}></EmailIcon>
-            <p>ammu.rajaponnan@gmail.com</p>
+            <p>soumyak.bhoi.2001@gmail.com</p>
           </div>
-
-          {/* <div
-            style={{ color: "white", display: "flex", flexDirection: "column" }}
-          >
-            <div style={{ display: "flex", alignItems: "center" }}>
-              <div>Any message or suggestions </div>
-              <div>
-                <QuestionAnswerOutlinedIcon style={{color:"#6E0DD0"}}/>
-              </div>
-            </div>
-            <div style={{ display: "flex", alignItems: "center" }}>
-              <div>Mail Me !!</div>
-            
-            </div>
-            <div style={{ display: "flex", alignItems: "center" }}>
-              <div>Thanks in Advance </div>{" "}
-              <div>
-                <SentimentSatisfiedAltIcon  style={{color:"#6E0DD0"}}/>
-              </div>
-            </div>
-          </div> */}
         </div>
         <form
           className={styles.formContainer}
-          action="mailto:ammu.rajaponnan@gmail.com"
+          action="mailto:soumyak.bhoi.2001@gmail.com"
           method="post"
           enctype="text/plain"
         >

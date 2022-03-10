@@ -14,6 +14,7 @@ const ProjectCard = ({ item }) => {
           <p>{item.name}</p>
           <p>{item.year}</p>
           <p>{item.desc}</p>
+          <p>{item.data}</p>
 
           <div className={styles.icon}>
             <Tooltip title="Visit Website">

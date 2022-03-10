@@ -42,7 +42,7 @@
   -webkit-text-fill-color: transparent; */
 }
 
-.contactDetails > div:not(:nth-child(4)) {
+.contactDetails > div:not(:nth-child(5)) {
   margin-top: 16px;
   display: flex;
   align-items: center;
@@ -50,11 +50,11 @@
   gap: 6px;
 }
 
-.contactDetails > div:nth-child(4) {
+.contactDetails > div:nth-child(5) {
   margin-top: 160px;
 }
 
-.contactDetails > div:nth-child(4) div {
+.contactDetails > div:nth-child(5) div {
   font-size: 18px;
   margin-bottom: 5px;
   color: #bc4e9c;
