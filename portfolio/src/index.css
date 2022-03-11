@@ -13,3 +13,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.skillsData>i{
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.skillsData>i:hover{
+  background-color: rgb(49, 143, 143);
+  color: white;
+}

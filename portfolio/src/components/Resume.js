@@ -1,5 +1,6 @@
 import React from 'react';
 import resumeData from '../resumeData';
+import "../index.css"
 export default  function Resume() {
     return <section id="resume">
         <div className="row education">
@@ -36,16 +37,16 @@ export default  function Resume() {
             </div>
 
             <div className="nine columns main-col">
-              <section id="four" className="skills">
-                <div className="languages skills show-on-scroll ">
-                  <i className="devicon-html5-plain-wordmark  technology" />
-                  <i className="devicon-css3-plain-wordmark  technology" />
-                  <i className="devicon-javascript-plain  technology" />
-                  <i className="devicon-react-plain-wordmark  technology" />
-                  <i className="devicon-redux-original  technology" />
-                  <i className="devicon-mongodb-plain-wordmark  technology" />
-                  <i className="devicon-nodejs-plain technology" />
-                  <i className="devicon-materialui-plain  technology" />
+              <section id="four" >
+                <div className=" skills show-on-scroll skillsData">
+                  <i className="devicon-html5-plain-wordmark"/>
+                  <i className="devicon-css3-plain-wordmark"/>
+                  <i className="devicon-javascript-plain"/>
+                  <i className="devicon-react-plain-wordmark"/>
+                  <i className="devicon-redux-original"/>
+                  <i className="devicon-mongodb-plain-wordmark"/>
+                  <i className="devicon-nodejs-plain"/>
+                  <i className="devicon-materialui-plain"/>
                 </div>
               </section>
             </div>

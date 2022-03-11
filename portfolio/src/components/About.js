@@ -11,20 +11,40 @@ export default function About() {
             <p>{resumeData.aboutme}</p>
             <div className="row">
               <div className="columns contact-details">
-                <h2>Contact Details</h2>
-                <p className="address">
-                  <span>{resumeData.name}</span><br />
-                  <span>
-                    {resumeData.address}
-                  </span>
-                  <br />
-                  <span>
-                    <a href="tel:+91 9937062128">{resumeData.mobNo}</a><br />
-                    <a href="mailto: soumyak.bhoi.2001@gmail.com">
-                      {resumeData.gmail}
-                    </a>
-                  </span>
-                </p>
+              <ul className="social" style={{display:"flex",gap:"10%",fontSize:"30px"}} >
+                                              {resumeData.socialLinks && resumeData.socialLinks.map(
+                                                  (
+                                                    item
+                                                  ) => {
+                                                    return (
+                                                      <li
+                                                        key={
+                                                          item.name
+                                                        }
+                                                      >
+                                                        <a
+                                                          href={
+                                                            item.url
+                                                          }
+                                                          target="_blank"
+                                                        >
+                                                          <i
+                                                            className={
+                                                              item.className
+                                                            }
+                                                          />
+                                                        </a>
+                                                      </li>
+                                                    );
+                                                  }
+                                                )}
+                                            </ul>
+                                            <a target="__blank" href="https://drive.google.com/file/d/1Me0ppnBHdL1_awIlEwKoDD6NGMSu8xEx/view?usp=sharing" download>
+                                              <button>
+                                                <i class="fa fa-download" download /> &nbsp;
+                                                DOWNLOAD RESUME
+                                              </button>
+                                            </a>
               </div>
             </div>
           </div>

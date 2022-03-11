@@ -3,7 +3,7 @@
 import React from 'react';
 import resumeData from '../resumeData';
 export default function Header() {return <React.Fragment>
-                                      <header id="home">
+                                      <header id="home" >
                                         <nav id="nav-wrap">
                                           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
                                             Show navigation
@@ -40,7 +40,7 @@ export default function Header() {return <React.Fragment>
                                           </ul>
                                         </nav>
 
-                                        <div className="row banner">
+                                        <div className="row banner" style={{marginBottom:"10px"}}>
                                           <div className="banner-text">
                                             <h3 className="responsive-headline" style={{fontSize:"55px",fontFamily:"fantasy",color:"white"}}>
                                               I
@@ -55,40 +55,7 @@ export default function Header() {return <React.Fragment>
                                               I am a {resumeData.role}.{resumeData.roleDescription}
                                             </h3>
                                             <hr />
-                                            <ul className="social">
-                                              {resumeData.socialLinks && resumeData.socialLinks.map(
-                                                  (
-                                                    item
-                                                  ) => {
-                                                    return (
-                                                      <li
-                                                        key={
-                                                          item.name
-                                                        }
-                                                      >
-                                                        <a
-                                                          href={
-                                                            item.url
-                                                          }
-                                                          target="_blank"
-                                                        >
-                                                          <i
-                                                            className={
-                                                              item.className
-                                                            }
-                                                          />
-                                                        </a>
-                                                      </li>
-                                                    );
-                                                  }
-                                                )}
-                                            </ul>
-                                            <a target="__blank" href="https://drive.google.com/file/d/1Me0ppnBHdL1_awIlEwKoDD6NGMSu8xEx/view?usp=sharing" download>
-                                              <button>
-                                                <i class="fa fa-download" download /> &nbsp;
-                                                DOWNLOAD RESUME
-                                              </button>
-                                            </a>
+                                            
                                           </div>
                                         </div>
 

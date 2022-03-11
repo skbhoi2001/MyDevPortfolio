@@ -4,7 +4,7 @@ let resumeData = {
   role: "Full Stack Web Developer",
   linkedinId: "https://www.linkedin.com/in/soumyak-kumar-bhoi-3b73a4184/",
   roleDescription:
-    " An Energetic and aspiring Full Stack Web Developer. Skilled in JavaScript, React, Redux and MongoDB. Experienced in executing projects using React and Redux. Eager to take responsibility and fulfill the organizational objectives within a product based company.",
+    " An Energetic Full Stack Web Developer. Skilled in JavaScript, React, Redux and MongoDB. Experienced in executing projects using React and Redux. Eager to take responsibility and fulfill the organizational objectives within a product based company.",
   socialLinks: [
     {
       name: "linkedin",
