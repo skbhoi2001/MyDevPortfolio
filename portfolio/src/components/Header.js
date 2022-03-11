@@ -52,7 +52,7 @@ export default function Header() {return <React.Fragment>
                                               .
                                             </h3>
                                             <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
-                                              I am a {resumeData.role}.{resumeData.roleDescription}
+                                              {resumeData.roleDescription}
                                             </h3>
                                             <hr />
                                             
