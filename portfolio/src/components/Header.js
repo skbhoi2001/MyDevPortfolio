@@ -41,8 +41,8 @@ export default function Header() {return <React.Fragment>
                                         </nav>
 
                                         <div className="row banner" style={{marginBottom:"10px"}}>
-                                          <div className="banner-text">
-                                            <h3 className="responsive-headline" style={{fontSize:"55px", fontFamily:"fantasy",color:"white"}}>
+                                          <div >
+                                            <h3  style={{fontSize:"45px", fontFamily:"fantasy",color:"white"}}>
                                               I
                                               am{" "}
                                               {
@@ -51,7 +51,7 @@ export default function Header() {return <React.Fragment>
 
                                               .
                                             </h3>
-                                            <h3 style={{ color: "#fff", fontFamily: "sans-serif ",paddingBottom:"100px" }}>
+                                            <h3 style={{ color: "#fff", fontFamily: "sans-serif ",padding:"10%"}}>
                                               {resumeData.roleDescription}
                                             </h3>
                                             <hr />
