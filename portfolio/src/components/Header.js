@@ -51,7 +51,7 @@ export default function Header() {return <React.Fragment>
 
                                               .
                                             </h3>
-                                            <h3 style={{ color: "#fff", fontFamily: "sans-serif ",paddingBottom:"1000px" }}>
+                                            <h3 style={{ color: "#fff", fontFamily: "sans-serif ",paddingBottom:"100px" }}>
                                               {resumeData.roleDescription}
                                             </h3>
                                             <hr />
