@@ -14,13 +14,13 @@ export default function ContactUs() {
         <aside className="eigth columns footer-widgets">
           <div className="widget">
             <h4>
-              Mobile No : <a href="tel:+91 8879200470">{resumeData.mobNo}</a>
+              Mobile No : <a href="tel:+91 9937062128">{resumeData.mobNo}</a>
               <br />
-              Linked in : <a href="https://www.linkedin.com/in/harshitsanas/" target="_blank">
+              Linked in : <a href="https://www.linkedin.com/in/soumyak-kumar-bhoi-3b73a4184/" target="_blank">
                 {resumeData.linkedinId}
               </a>
               <br />
-              Outlook : <a href="mailto: harrysanas140@outlook.com">
+              Outlook : <a href="mailto: soumyak.bhoi.2001@gmail.com">
                 {resumeData.gmail}
               </a>
             </h4>

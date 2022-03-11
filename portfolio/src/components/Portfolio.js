@@ -14,31 +14,30 @@ export default function Portfolio() {
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
               <div className="article-wrapper">
                 <article className="col-12 col-12-xsmall work-item">
-                  <a href="https://harshit-weatherapp.netlify.app/" className="image fit thumb" target="_blank" rel="noopener noreferrer">
-                    <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1627040115871/GhX5Vwfmg.png?auto=compress,format&format=webp" alt="final-capstone" />
+                  <a href="https://happy-curran-36e035.netlify.app " className="image fit thumb" target="_blank" rel="noopener noreferrer">
+                    <img src="https://github.com/skbhoi2001/Instagram_clone/raw/main/instagram_clone/images/home.png?raw=true" alt="final-capstone" />
                   </a>
                   <div className="art-description">
                     <div className="text-wrapper">
-                      <h3>React Weather App</h3>
+                      <h3>INSTAGRAM_CLONE</h3>
                       <p>
-                        An original web application that provides information
-                        related to the current weather and climate of a area.
-                        I used Axios to fetch data from API server and
-                        functionality to show data on webpage Individual
-                        project completed in 4 days.
+                      Instagram is an photo and video sharing social networking service founded by Kevin Systrom and Mike Krieger.It allows users to upload media that can be edited with filters and organized by hashtags and geographical tagging.
+                      <h5>
+                      React | Redux | Matrial UI | JSON
+                      </h5>
                       </p>
                     </div>
                     <ul className="actions">
                       <div className="actions-wrapper">
                         <li>
-                          <a href="https://harshit-weatherapp.netlify.app/" className="button project-button" target="_blank" rel="noopener noreferrer">
+                          <a href="https://happy-curran-36e035.netlify.app" className="button project-button" target="_blank" rel="noopener noreferrer">
                             Demo
                           </a>
                         </li>
                         <li>
-                          <a href="https://github.com/Harshsanas/React_WEATHERAPP.git" className="button project-button brands" target="_blank" rel="noopener noreferrer">
+                          <a href="https://github.com/skbhoi2001/Instagram_clone.git" className="button project-button brands" target="_blank" rel="noopener noreferrer">
                             <i className="fa fa-github icon" />
-                            View Source
+                            Code
                           </a>
                         </li>
                       </div>
@@ -46,6 +45,7 @@ export default function Portfolio() {
                         <i className="devicon-react-plain-wordmark technology" />
                         <i className="devicon-redux-original technology" />
                         <i className="devicon-nodejs-plain technology" />
+                        <i className="devicon-materialui-plain  technology" />
                       </div>
                     </ul>
                   </div>
@@ -54,29 +54,28 @@ export default function Portfolio() {
 
               <div className="article-wrapper">
                 <article className="col-12 col-12-xsmall work-item">
-                  <a href="https://github.com/ajmalmiyan/Calendly-Clone.git" className="image fit thumb" target="_blank" rel="noopener noreferrer">
-                    <img src="https://images.ctfassets.net/k0lk9kiuza3o/6GX3BEB2StTLRWYuFW9UBj/23d815c203c7f9dbd25a024ce1842ee8/Homepage.png" alt="pic-some" />
+                  <a href="http://proctoclone.atwebpages.com/" className="image fit thumb" target="_blank" rel="noopener noreferrer">
+                    <img src="https://user-images.githubusercontent.com/72690740/147086166-535f3590-d10c-4a59-9feb-85f57286516c.PNG" alt="pic-some" />
                   </a>
                   <div className="art-description">
                     <div className="text-wrapper">
-                      <h3>Calendly Clone</h3>
+                      <h3>PRACTO_CLONE</h3>
                       <p>
-                        Calendly is an app for scheduling appointments,
-                        meetings, and events. Collaborative project,
-                        accomplished along with 4 team members in 7 days.
+                      Practo is revolutionizing healthcare by enabling consumers to find the best doctors, book instant appointments, consultations, and make better, more informed health decisions.
+                      <h5>HTML5 | CSS3 | JSON</h5>
                       </p>
                     </div>
                     <ul className="actions">
                       <div className="actions-wrapper">
                         <li>
-                          <a href="https://drive.google.com/file/d/10shx-fhO4Ts8WMQd9_i0TVrSzMx18txG/view?usp=sharing" className="button project-button" target="_blank" rel="noopener noreferrer">
+                          <a href="http://proctoclone.atwebpages.com/" className="button project-button" target="_blank" rel="noopener noreferrer">
                             Demo
                           </a>
                         </li>
                         <li>
-                          <a href="https://github.com/ajmalmiyan/Calendly-Clone.git" className="button project-button brands" target="_blank" rel="noopener noreferrer">
+                          <a href="https://github.com/skbhoi2001/practo_clone.git" className="button project-button brands" target="_blank" rel="noopener noreferrer">
                             <i className="fa fa-github icon" />
-                            View Source
+                            Code
                           </a>
                         </li>
                       </div>
@@ -90,7 +89,7 @@ export default function Portfolio() {
                 </article>
               </div>
 
-              <div className="article-wrapper">
+              {/* <div className="article-wrapper">
                 <article className="col-12 col-12-xsmall work-item">
                   <a href="https://cloning-premierleague.netlify.app/" className="image fit thumb" target="_blank" rel="noopener noreferrer">
                     <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1627039818844/Yv6sU_JRu.png?auto=compress,format&format=webp" alt="react-capstone" />
@@ -117,7 +116,7 @@ export default function Portfolio() {
                         <li>
                           <a href="https://github.com/Mangeshbk/Premier-League-clone" className="button project-button brands" target="_blank" rel="noopener noreferrer">
                             <i className="fa fa-github icon" />
-                            View Source
+                            Code
                           </a>
                         </li>
                       </div>
@@ -158,7 +157,7 @@ export default function Portfolio() {
                         <li>
                           <a href="https://github.com/Harshsanas/Rentomojo.git" className="button project-button brands" target="_blank" rel="noopener noreferrer">
                             <i className="fa fa-github icon" />
-                            View Source
+                            Code
                           </a>
                         </li>
                       </div>
@@ -170,7 +169,7 @@ export default function Portfolio() {
                     </ul>
                   </div>
                 </article>
-              </div>
+              </div> */}
               {/* <ul className="actions">
                 <li className="wide-button"><a href="https://github.com/rammazzoti2000" className="button portfolio-button" target="_blank" rel="noopener noreferrer">Full Portfolio</a></li>
               </ul> */}

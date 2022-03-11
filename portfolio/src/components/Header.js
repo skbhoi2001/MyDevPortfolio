@@ -42,7 +42,7 @@ export default function Header() {return <React.Fragment>
 
                                         <div className="row banner">
                                           <div className="banner-text">
-                                            <h1 className="responsive-headline">
+                                            <h3 className="responsive-headline" style={{fontSize:"55px",fontFamily:"fantasy",color:"white"}}>
                                               I
                                               am{" "}
                                               {
@@ -50,7 +50,7 @@ export default function Header() {return <React.Fragment>
                                               }
 
                                               .
-                                            </h1>
+                                            </h3>
                                             <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
                                               I am a {resumeData.role}.{resumeData.roleDescription}
                                             </h3>
@@ -83,7 +83,7 @@ export default function Header() {return <React.Fragment>
                                                   }
                                                 )}
                                             </ul>
-                                            <a href="/Harshit Sanas_Resume.pdf" download>
+                                            <a target="__blank" href="https://drive.google.com/file/d/1Me0ppnBHdL1_awIlEwKoDD6NGMSu8xEx/view?usp=sharing" download>
                                               <button>
                                                 <i class="fa fa-download" download /> &nbsp;
                                                 DOWNLOAD RESUME
