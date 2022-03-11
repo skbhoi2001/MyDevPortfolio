@@ -42,7 +42,7 @@ export default function Header() {return <React.Fragment>
 
                                         <div className="row banner" style={{marginBottom:"10px"}}>
                                           <div >
-                                            <h3  style={{fontSize:"45px", fontFamily:"fantasy",color:"white"}}>
+                                            <h3  style={{fontSize:"45px",lineHeight:"50px", fontFamily:"fantasy",color:"white"}}>
                                               I
                                               am{" "}
                                               {
